@@ -24,11 +24,17 @@ Visual Studio Code
 Project Structure:
 
 restapp/models.py – defines database models
+
 restapp/views.py – contains API logic
+
 restapp/serializers.py – handles data conversion (JSON)
+
 restapp/urls.py – API routing
+
 How to Run the Project
+
 Open the project in Visual Studio Code
+
 Open terminal in VS Code
 
 
@@ -54,16 +60,25 @@ python manage.py runserver
 
 
 API Endpoints
+
 GET /api/ → get all data
+
 POST /api/ → create new data
+
 GET /api/<id>/ → retrieve single record
+
 PUT /api/<id>/ → update record
+
 DELETE /api/<id>/ → delete record
-Testing
+
+
+Testing:
 
 I tested the API using browser and tools like Postman to check all endpoints and responses.
 
-What I Learned
+
+What I Learned:
+
 How to build REST APIs using Django
 How serializers work in Django REST Framework
 Handling requests and responses
